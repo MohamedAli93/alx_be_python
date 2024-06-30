@@ -3,11 +3,11 @@ priority = str(input("Priority (high/medium/low): ")).lower()
 time_bound = str(input("Is it time-bound? (yes/no): ")).lower()
 match priority:
     case "high":
-        reminder = f"Reminder: {task} is a {priority} priority task "
+        reminder = f"Reminder: '{task}' is a {priority} priority task "
     case "medium":
-        reminder = f"Note: {task} is a {priority} priority task "
+        reminder = f"Note: '{task}' is a {priority} priority task "
     case "low":
-        reminder = f"Note: {task} is a {priority} priority task "
+        reminder = f"Note: '{task}' is a {priority} priority task "
     case _:
         print("Invalid priority level. Reminder not created.")
 if time_bound == "yes":
