@@ -5,7 +5,7 @@ match priority:
     case "high":
         reminder = f"Reminder: '{task}' is a {priority} priority task "
     case "medium":
-        reminder = f"Note: '{task}' is a {priority} priority task "
+        reminder = f"Reminder: '{task}' is a {priority} priority task "
     case "low":
         reminder = f"Note: '{task}' is a {priority} priority task "
     case _:
