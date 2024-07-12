@@ -11,8 +11,7 @@ def main():
         choice = int(input("Enter your choice: "))
 
         if choice == '1':
-            item_name1 = input("Enter the item to add:")
-            shopping_list.append(item_name1)
+            shopping_list.append(input("Enter the item to add:"))
         elif choice == '2':
             item_name2 = input("item name: ")
             if item_name2 in shopping_list:
