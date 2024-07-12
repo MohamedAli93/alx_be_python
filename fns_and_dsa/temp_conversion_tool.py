@@ -4,7 +4,7 @@ def convert_to_celsius(fahrenheit):
     temprature_in_celsius = (fahrenheit-32) * FAHRENHEIT_TO_CELSIUS_FACTOR
     return temprature_in_celsius
 def convert_to_fahrenheit(celsius):
-    temprature_in_fahrenheit = (celsius*9/5) + 32
+    temprature_in_fahrenheit = (celsius*CELSIUS_TO_FAHRENHEIT_FACTOR) + 32
     return temprature_in_fahrenheit
 
 def main():
